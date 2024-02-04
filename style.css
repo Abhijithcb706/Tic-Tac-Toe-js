@@ -1,0 +1,128 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&family=Sixtyfour&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: "Poppins", sans-serif;
+  font-family: "Sixtyfour", sans-serif; */
+}
+body {
+  background-color: rgb(179, 179, 179);
+}
+h1 {
+  color: orangered;
+  text-shadow: 0px 5px 8px rgb(10, 158, 59);
+  margin-bottom: 15px;
+}
+p {
+  margin-bottom: 0px;
+}
+
+.ui {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45px;
+}
+.row {
+  display: flex;
+  box-shadow: -1px 5px 50px rgba(9, 3, 63, 0.836);
+}
+.cell {
+  border: none;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+.cell:active {
+  outline: none;
+}
+/* 3*3 Grid */
+#b1 {
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+#b2 {
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+#b3 {
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+#b4 {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+#b5 {
+  border: 1px solid gray;
+}
+
+#b6 {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+#b7 {
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+#b8 {
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+#b9 {
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+}
+/* Reset Button */
+#but {
+  box-sizing: border-box;
+  width: 95px;
+  height: 40px;
+  border: 1px solid rgb(9, 10, 10);
+  margin-top: 20px;
+  box-shadow: 0px 15px 48px rgb(3, 168, 233);
+  border-radius: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  background-color: rgb(216, 0, 29);
+  color: dodgerblue;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#print {
+	margin-top: 20px;
+  font-family:cursive;
+  color: rgb(255, 251, 0);
+  font-size: 20px;
+  text-shadow: 0px 15px 20px black;
+}
+
+#main {
+  text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: dodgerblue;
+}
